@@ -10,7 +10,7 @@ const Navbar = () => {
       </a>
 
       {/* Desktop Menu */}
-      <div className="hidden sm:flex items-center gap-8 ">
+      <div className="hidden sm:flex items-center gap-8  ">
         <a
           href="/Home"
           className="relative inline-block text-gray-600 hover:text-gray-950 transition-colors duration-300 
@@ -59,40 +59,39 @@ const Navbar = () => {
         >
           Sports Article
         </a>
-
-        <div
-          className="bg-[#B8C2CE] hidden lg:flex items-center text-sm border border-gray-300 px-3 rounded-md 
+      </div>
+      <div
+        className="bg-[#B8C2CE] hidden lg:flex items-center text-sm border border-gray-300 px-3 rounded-md 
                 focus-within:border-white-500 focus-within:shadow-md focus-within:shadow-gray-300 transition-all duration-300"
+      >
+        <input
+          className="py-1.5 w-25 bg-transparent outline-none placeholder-gray-500"
+          type="text"
+          placeholder="Search"
+        />
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <input
-            className="py-1.5 w-25 bg-transparent outline-none placeholder-gray-500"
-            type="text"
-            placeholder="Search"
+          <path
+            d="M10.836 10.615 15 14.695"
+            stroke="#7A7B7D"
+            strokeWidth="1.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10.836 10.615 15 14.695"
-              stroke="#7A7B7D"
-              strokeWidth="1.2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              clipRule="evenodd"
-              d="M9.141 11.738c2.729-1.136 4.001-4.224 2.841-6.898S7.67.921 4.942 2.057C2.211 3.193.94 6.281 2.1 8.955s4.312 3.92 7.041 2.783"
-              stroke="#7A7B7D"
-              strokeWidth="1.2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          <path
+            clipRule="evenodd"
+            d="M9.141 11.738c2.729-1.136 4.001-4.224 2.841-6.898S7.67.921 4.942 2.057C2.211 3.193.94 6.281 2.1 8.955s4.312 3.92 7.041 2.783"
+            stroke="#7A7B7D"
+            strokeWidth="1.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
 
       <button
@@ -118,21 +117,52 @@ const Navbar = () => {
       <div
         className={`${open ? "flex" : "hidden"} absolute top-15 left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}
       >
-        <a href="#" className="block">
+        <a
+          href="#"
+          className="block relative  text-gray-600 hover:text-gray-950 transition-colors duration-300 
+    after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
+    after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+        >
           Home
         </a>
-        <a href="#" className="block">
+        <a
+          href="#"
+          className="block relative  text-gray-600 hover:text-gray-950 transition-colors duration-300 
+    after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
+    after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+        >
           Category
         </a>
-        <a href="#" className="block">
+        <a
+          href="#"
+          className="block relative  text-gray-600 hover:text-gray-950 transition-colors duration-300 
+    after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
+    after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+        >
           Trending News
         </a>
-        <a href="#" className="block"></a>
-        Recent News
-        <a href="#" className="block">
+        <a
+          href="#"
+          className="block relative  text-gray-600 hover:text-gray-950 transition-colors duration-300 
+    after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
+    after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+        >
+          Recent News
+        </a>
+        <a
+          href="#"
+          className="block relative  text-gray-600 hover:text-gray-950 transition-colors duration-300 
+    after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
+    after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+        >
           Clubs Ranking
         </a>
-        <a href="#" className="block">
+        <a
+          href="#"
+          className="block relative  text-gray-600 hover:text-gray-950 transition-colors duration-300 
+    after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
+    after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+        >
           Sports Article
         </a>
       </div>
