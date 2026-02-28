@@ -5,7 +5,7 @@ import reacing_car from "../assets/heroCard2.png";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen relative ">
+    <div className="w-full h-screen relative">
       {/* left side */}
       <div>
         {/* bakcground image */}

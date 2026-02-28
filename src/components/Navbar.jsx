@@ -4,7 +4,7 @@ import logo from "../assets/SportNews.png";
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   return (
-    <nav className="flex items-center justify-between py-4  bg-white relative transition-all font-dm ">
+    <nav className="flex items-center justify-between py-4  bg-white relative transition-all font-dm">
       <a href="/Home">
         <img src={logo} alt="SportNews Logo" className=" h-8 pr-4" />
       </a>
