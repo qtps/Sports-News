@@ -28,7 +28,7 @@ const Navbar = () => {
           Category
         </a>
         <a
-          href="/Contact"
+          href="/trending-news"
           className="relative inline-block text-gray-600 hover:text-gray-950 transition-colors duration-300 
     after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
     after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
@@ -36,7 +36,7 @@ const Navbar = () => {
           Trending News
         </a>
         <a
-          href="/Contact"
+          href="/recent-news"
           className="relative inline-block text-gray-600 hover:text-gray-950 transition-colors duration-300 
     after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
     after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
@@ -44,7 +44,7 @@ const Navbar = () => {
           Recent News
         </a>
         <a
-          href="/Contact"
+          href="/clubs-ranking"
           className="relative inline-block text-gray-600 hover:text-gray-950 transition-colors duration-300 
     after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
     after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
@@ -52,7 +52,7 @@ const Navbar = () => {
           Clubs Ranking
         </a>
         <a
-          href="/Contact"
+          href="/sports-article"
           className="relative inline-block text-gray-600 hover:text-gray-950 transition-colors duration-300 
     after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-0.5 after:bg-gray-800 
     after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
