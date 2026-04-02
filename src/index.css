@@ -16,3 +16,38 @@
   }
 }
 
+
+
+.scroll-container {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+}
+
+/* continuous loop scroll */
+@keyframes autoScrollLoop {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); } /* পুরো content উপরে যাবে */
+}
+
+.auto-scroll {
+  position: absolute;
+  inset: 0;
+  animation: autoScrollLoop 20s linear infinite; /* ধীরে ধীরে loop হবে */
+}
+
+/* pause on hover */
+.auto-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* hover করলে scrollbar enable হবে */
+.scroll-container:hover {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* scrollbar hide */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}

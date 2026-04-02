@@ -2,6 +2,7 @@ import Category from "./components/Category";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import TrendingNews from "./components/TrendingNews";
 
 const App = () => {
   return (
@@ -14,12 +15,13 @@ const App = () => {
       <main>
         <Hero />
         {/* belwo there section 1 section 2 section 3 */}
-        <Category />
+        <Category  />
+        <TrendingNews />
       </main>
       {/* footer sections */}
       <footer>
-        <Footer />
-      </footer>
+        {/* <Footer /> */}
+      </footer> 
     </div>
   );
 };

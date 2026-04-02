@@ -7,15 +7,20 @@ import car from "../assets/sports_car.png";
 
 const Category = () => {
   return (
+    <div className="mt-10 md:mt-65 lg:mt-80 xl:mt-85">
+
+      <h2 className="text-[#262626] text-2xl font-bold pl-10 pb-5">Category</h2>
     <div
-      className="mt-10 grid gap-5 py-5 
-                    grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
-                    justify-items-center "
+      className=" grid gap-5 py-5 
+                    grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 
+                    justify-items-center  "
     >
       <Card title="Football" image={football} />
       <Card2 title="Basket ball" image={basketball} />
       <Card title="Table Tennis" image={tenis} />
       <Card2 title="Sports Car" image={car} />
+    </div>
+
     </div>
   );
 };
