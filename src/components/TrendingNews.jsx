@@ -9,13 +9,13 @@ import "../index.css";
 const TrendingNews = () => {
   return (
     <div>
-      <h2 className="text-neutral-600 text-xl xl:text-3xl  font-sequel leading-9 ">
+      <h2 className="text-neutral-600 text-xl xl:text-3xl  font-sequel leading-9  ">
         Trending News
       </h2>
-      <div className="w-full h-auto flex flex-col md:flex-row sm:flex-col items-center justify-between mt-10">
+      <div className="w-full h-auto flex flex-col md:flex-row sm:flex-col items-center justify-between mt-10 bg-[#E1E8F0] rounded-2xl overflow-hidden">
         {/* left side with continuous auto scroll */}
-        <div className="w-full sm:w-1/2 scroll-container">
-          <div className="space-y-0 auto-scroll">
+        <div className="w-full sm:w-1/2 scroll-container bg-[#E1E8F0] ">
+          <div className="space-y-0 auto-scroll bg-[#E1E8F0] ">
             {/* তোমার সব card */}
             <NewsCard
               title="6-Year-Old Horse Dies at Belmont Park After Race Injury"
@@ -82,7 +82,7 @@ const TrendingNews = () => {
           <img
             src={DringkingWater}
             alt="Sportsman Drinking Water"
-            className="w-full h-64 sm:h-80 md:h-96 lg:h-112 object-cover"
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-125 object-cover"
           />
 
           {/* Transparent Overlay Layer */}

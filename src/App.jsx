@@ -1,7 +1,9 @@
+import Carousel from "./components/Carousel";
 import Category from "./components/Category";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import RecentNews from "./components/RecentNews";
 import TrendingNews from "./components/TrendingNews";
 
 const App = () => {
@@ -17,6 +19,9 @@ const App = () => {
         {/* belwo there section 1 section 2 section 3 */}
         <Category  />
         <TrendingNews />
+        <Carousel />
+        <RecentNews />
+        
       </main>
       {/* footer sections */}
       <footer>
