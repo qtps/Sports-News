@@ -3,6 +3,7 @@ import Category from "./components/Category";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import NewsSubscription from "./components/NewsSubscription";
 import RecentNews from "./components/RecentNews";
 import SportsArticle from "./components/SportsArticle";
 import TrendingNews from "./components/TrendingNews";
@@ -23,6 +24,7 @@ const App = () => {
         <Carousel />
         <RecentNews />
         <SportsArticle />
+        <NewsSubscription />
         
       </main>
       {/* footer sections */}
