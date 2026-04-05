@@ -18,17 +18,19 @@ function NewsSubscription() {
         rel="stylesheet"
       />
 
-      <div className="w-full mt-5 mb-5 bg-linear-to-br from-gray-200 to-gray-300  shadow-2xl overflow-hidden flex flex-col sm:flex-row">
+      <div className="w-full mt-5  bg-linear-to-br from-gray-200 to-gray-300   overflow-hidden flex flex-col sm:flex-row">
         {/* Left: Title + Form */}
         <div className="flex-1 flex flex-col justify-center gap-5 px-8 py-10 order-1 z-10">
           {/* Title */}
           <div className="leading-none font-[Bebas_Neue]">
-            <span className="block text-gray-900 tracking-widest text-5xl sm:text-4xl lg:text-6xl">
-              NEWSLETTER
+            <span className="block  tracking-widest  sm:text-4xl lg:text-6xl font-sequel bg-linear-to-t from-black/25 to-black 
+                text-transparent bg-clip-text 
+                text-3xl">
+              NEWSLETTER SUBSCRIPTION
             </span>
-            <span className="block text-gray-400 tracking-widest text-5xl sm:text-4xl lg:text-6xl">
-              SUBSCRIPTION
-            </span>
+  
+              
+            
           </div>
 
           {/* Email Form */}

@@ -10,6 +10,13 @@
   --font-sequel: "Sequel", sans-serif;
 }
 
+/* global css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 @layer utilities {
   .header-text-shadow {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);

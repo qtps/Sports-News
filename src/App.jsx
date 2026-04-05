@@ -1,37 +1,35 @@
-import Carousel from "./components/Carousel";
-import Category from "./components/Category";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import NewsSubscription from "./components/NewsSubscription";
+import Hero from "./components/Hero";
+import Category from "./components/Category";
+import TrendingNews from "./components/TrendingNews";
+import Carousel from "./components/Carousel";
 import RecentNews from "./components/RecentNews";
 import SportsArticle from "./components/SportsArticle";
-import TrendingNews from "./components/TrendingNews";
+import NewsSubscription from "./components/NewsSubscription";
+import Footer from "./components/Footer";
 
-const App = () => {
+function App() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      {/* header sections */}
       <header>
-        <Navbar/>
+        <Navbar />
       </header>
-      {/* main sections */}
+
       <main>
-        <Hero />
-        {/* belwo there section 1 section 2 section 3 */}
-        <Category  />
-        <TrendingNews />
-        <Carousel />
-        <RecentNews />
-        <SportsArticle />
-        <NewsSubscription />
-        
+        <section id="hero"><Hero /></section>
+        <section id="category"><Category /></section>
+        <section id="trending-news"><TrendingNews /></section>
+        <section id="carousel"><Carousel /></section>
+        <section id="recent-news"><RecentNews /></section>
+        <section id="sports-article"><SportsArticle /></section>
+        <section id="news-subscription"><NewsSubscription /></section>
       </main>
-      {/* footer sections */}
+
       <footer>
-        {/* <Footer /> */}
-      </footer> 
+        <Footer />
+      </footer>
     </div>
   );
-};
+}
+
 export default App;
