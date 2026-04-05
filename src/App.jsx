@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import RecentNews from "./components/RecentNews";
+import SportsArticle from "./components/SportsArticle";
 import TrendingNews from "./components/TrendingNews";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <TrendingNews />
         <Carousel />
         <RecentNews />
+        <SportsArticle />
         
       </main>
       {/* footer sections */}
